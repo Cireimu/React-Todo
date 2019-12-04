@@ -10,7 +10,7 @@ function todoForm(props) {
                 placeholder='Task...'
             />
             <button className='buttonAdd' type='submit'>Add Todo</button>
-            <button classname='buttonclr' onClick={props.clear}>Clear</button>
+            <button className='buttonClear' onClick={props.clear}>Clear</button>
         </form>
     )
 }

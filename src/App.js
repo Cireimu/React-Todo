@@ -123,11 +123,11 @@ class App extends React.Component {
         <TodoList 
           todos={this.state.taskList}
           deleteTodo={this.delete}
-          toggleTodo={this.toggleTodo} //Spent 1-2 hours!! I accidentally passed this to TodoForm
+          toggleTodo={this.toggleTodo} 
         />
 
         
-        {/* Functions need to be passed as props to be accessible in other components */}
+      
       </div>
     );
   }

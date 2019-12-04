@@ -92,7 +92,7 @@ input {
     border-radius: 5px;
 }
 
-.buttonAdd, .buttonClr {
+.buttonAdd, .buttonClear {
     background-color: #1982C4;
     border: 1px solid #000;
     border-radius: 5px;
@@ -108,7 +108,7 @@ input {
     width: 110px;
 }
 
-.buttonAdd:hover, .buttonClr:hover {
+.buttonAdd:hover, .buttonClear:hover {
     background-color: rgb(67, 149, 201);
 }
 
@@ -137,3 +137,4 @@ input {
 .buttonDel:hover {
     background-color: #D31245;
 }
+
